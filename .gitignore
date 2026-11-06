@@ -1,0 +1,19 @@
+UnityProject/[Ll]ibrary/
+UnityProject/[Tt]emp/
+UnityProject/[Oo]bj/
+UnityProject/[Bb]uilds/
+UnityProject/[Ll]ogs/
+UnityProject/[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.slnx
+*.user
+.vs/
+.vscode/
+.idea/
+
+# Not ours to redistribute, or not cleared for it
+UnityProject/Assets/Audio/
+UnityProject/Assets/Audio.meta
+UnityProject/Assets/Art/Characters/
+UnityProject/Assets/Art/Characters.meta

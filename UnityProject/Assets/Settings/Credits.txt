@@ -1,0 +1,17 @@
+<size=44><b>借魂  BORROWED SOULS</b></size>
+GitHub Game Off 2026
+
+<b>音樂 Music</b>
+"EGLAIR", "Voyager", "Rise Again", "Reset", "Myths", "Hearts Of Iron", "Burn It Down", "Reborn", "Monumental" by Alex-Productions — CC BY 3.0
+"The Hunting (Loop)", "Decisive Hours (Loop)" by FSCM Productions — CC BY 4.0
+"Ride The Wind" by Scott Buckley — CC BY 4.0
+Music promoted by free-stock-music.com · creativecommons.org/licenses/by/3.0 · /by/4.0
+
+<b>音效・配音 Sound Effects & Voices</b>
+効果音ラボ (soundeffect-lab.info)
+
+<b>字型 Font</b>
+Noto Sans TC (SIL Open Font License 1.1)
+
+<b>製作工具 Made with</b>
+Unity

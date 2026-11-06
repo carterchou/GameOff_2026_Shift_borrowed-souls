@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edd78015f6957b241abbccb8d425616c, type: 3}
+  m_Name: TalentCatalog
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.TalentCatalog
+  _released: 1
+  _entries:
+  - Id: 0
+    DisplayName: "\u539A\u5BE6\u8EC0\u6BBC"
+    Effect: "\u6BCF\u7D1A\uFF1A\u6240\u6709\u8EAB\u9AD4 MaxHP +10%"
+    Costs: 0f0000001e00000032000000
+    PerLevel: 0.1
+  - Id: 1
+    DisplayName: "\u5598\u606F"
+    Effect: "\u6BCF\u7D1A\uFF1A\u6CE2\u9593\u56DE\u5FA9\u518D +10% MaxHP"
+    Costs: 1400000028000000
+    PerLevel: 0.1
+  - Id: 2
+    DisplayName: "\u9B42\u4E4B\u9918\u88D5"
+    Effect: "\u6BCF\u7D1A\uFF1A\u904A\u9B42\u6642\u9593 +1 \u79D2"
+    Costs: 1400000028000000
+    PerLevel: 1
+  - Id: 4
+    DisplayName: "\u62FE\u9B42"
+    Effect: "\u6BCF\u7D1A\uFF1A\u9B42\u71FC\u5438\u53D6\u7BC4\u570D +25%"
+    Costs: 0f0000001e000000
+    PerLevel: 0.25
+  - Id: 3
+    DisplayName: "\u5148\u624B\u795D\u798F"
+    Effect: "\u7B2C\u4E00\u6CE2\u7D50\u675F\u6642\u591A\u9078\u4E00\u6B21\u5347\u7D1A"
+    Costs: 28000000
+    PerLevel: 1
+  _crystalsPerWave: 5
+  _crystalsPerKill: 1
+  _victoryCrystals: 30

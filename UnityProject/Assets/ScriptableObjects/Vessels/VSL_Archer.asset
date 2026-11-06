@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0bf6cb53bb7874e87dde9638dacf27, type: 3}
+  m_Name: VSL_Archer
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.VesselDefinition
+  _displayName: "\u9577\u5F13\u624B"
+  _class: 1
+  _maxHp: 80
+  _moveSpeed: 5.2
+  _acceleration: 40
+  _turnSpeedDegrees: 900
+  _dodgeDistance: 3.8
+  _dodgeDuration: 0.35
+  _dodgeInvulnStart: 0.1
+  _dodgeInvulnEnd: 0.28
+  _dodgeCooldown: 0.8
+  _projectileShieldCooldown: 0
+  _superArmor: 0
+  _weapon: {fileID: 11400000, guid: a821df248c31f954d9f24038cdb9490a, type: 2}
+  _bodyColor: {r: 0.42, g: 0.55, b: 0.38, a: 1}

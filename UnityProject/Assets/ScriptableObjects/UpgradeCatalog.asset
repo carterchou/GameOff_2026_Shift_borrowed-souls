@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baefc034b5f3e0f428b108aa66528b62, type: 3}
+  m_Name: UpgradeCatalog
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.UpgradeCatalog
+  _entries:
+  - Id: 0
+    DisplayName: "\u9748\u9B42\u4FB5\u8755"
+    NextLevelText:
+    - "\u53EF\u4FB5\u5165 HP \u2264 25% \u7684\u6D3B\u6575\n\uFF08\u7CBE\u82F1 12.5%\uFF09"
+    - "\u6D3B\u6575\u9580\u6ABB 35%\uFF08\u7CBE\u82F1 17.5%\uFF09"
+    - "\u6D3B\u6575\u9580\u6ABB 45%\uFF08\u7CBE\u82F1 22.5%\uFF09"
+    - "\u6D3B\u6575\u9580\u6ABB 55%\uFF08\u7CBE\u82F1 27.5%\uFF09"
+  - Id: 1
+    DisplayName: "\u9748\u9B42\u4FEE\u5FA9"
+    NextLevelText:
+    - "\u9996\u6B21\u501F\u9B42\u6062\u5FA9\u81F3 75% MaxHP\n\uFF08\u8FD4\u56DE\u820A\u8EAB\u9AD4\u4E0D\u56DE\u8840\uFF09"
+    - "\u9996\u6B21\u501F\u9B42\u6062\u5FA9\u81F3 85%"
+    - "\u9996\u6B21\u501F\u9B42\u6062\u5FA9\u81F3 95%"
+  - Id: 2
+    DisplayName: "\u9748\u9B42\u5EF6\u7E8C"
+    NextLevelText:
+    - "\u904A\u9B42\u6642\u9593 5 \u2192 6 \u79D2"
+    - "\u904A\u9B42\u6642\u9593 6 \u2192 7 \u79D2"
+  - Id: 3
+    DisplayName: "\u9748\u9B42\u611F\u61C9"
+    NextLevelText:
+    - "\u4FB5\u5165\u8DDD\u96E2 2.5 \u2192 3.0 m"
+    - "\u4FB5\u5165\u8DDD\u96E2 3.0 \u2192 3.5 m"
+    - "\u4FB5\u5165\u8DDD\u96E2 3.5 \u2192 4.0 m"
+  - Id: 4
+    DisplayName: "\u8089\u9AD4\u5F37\u5316"
+    NextLevelText:
+    - "\u5BC4\u5BBF\u5BB9\u5668 MaxHP +10%\n\uFF08\u4F9D\u6BD4\u4F8B\uFF0C\u4E0D\u984D\u5916\u56DE\u8840\uFF09"
+    - MaxHP +20%
+    - MaxHP +30%
+  - Id: 5
+    DisplayName: "\u529B\u91CF\u589E\u5E45"
+    NextLevelText:
+    - "\u6240\u6709\u8077\u696D\u653B\u64CA\u50B7\u5BB3 +10%"
+    - "\u653B\u64CA\u50B7\u5BB3 +20%"
+    - "\u653B\u64CA\u50B7\u5BB3 +30%"
+  - Id: 6
+    DisplayName: "\u8FC5\u6377"
+    NextLevelText:
+    - "\u5BC4\u5BBF\u5BB9\u5668\u79FB\u901F +8%"
+    - "\u79FB\u901F +16%"
+  - Id: 7
+    DisplayName: "\u9B42\u7206"
+    NextLevelText:
+    - "\u6210\u529F\u4FB5\u5165\u6642\uFF0C\u5C0D\u5468\u570D 3.5 m \u7684\u6575\u4EBA\u9020\u6210\u9B42\u80FD\u50B7\u5BB3"

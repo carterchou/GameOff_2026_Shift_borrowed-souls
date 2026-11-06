@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0bf6cb53bb7874e87dde9638dacf27, type: 3}
+  m_Name: VSL_SoulWarden
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.VesselDefinition
+  _displayName: "\u76E3\u9B42\u8005"
+  _class: 0
+  _maxHp: 1100
+  _moveSpeed: 3.4
+  _acceleration: 40
+  _turnSpeedDegrees: 900
+  _dodgeDistance: 0
+  _dodgeDuration: 0.35
+  _dodgeInvulnStart: 0.1
+  _dodgeInvulnEnd: 0.28
+  _dodgeCooldown: 0.8
+  _projectileShieldCooldown: 0
+  _superArmor: 1
+  _weapon: {fileID: 11400000, guid: 27f31e1b558a0594485a85b0dee765ac, type: 2}
+  _bodyColor: {r: 0.22, g: 0.23, b: 0.27, a: 1}

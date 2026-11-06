@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0297a7857809ebe499efbcf287b26e3c, type: 3}
+  m_Name: AudioMixSettings
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.AudioMixSettings
+  _sfxVolume: 1
+  _musicVolume: 0.5
+  _voiceVolume: 0.8
+  _proceduralVariants: 4
+  _playerSwingVolume: 0.6
+  _enemySwingVolume: 0.35
+  _deathVolume: 0.6
+  _soulVolume: 0.8
+  _emberVolume: 0.35
+  _uiVolume: 0.6
+  _emberMaxStep: 10
+  _playerDealtVolume: 0.75
+  _playerHurtVolume: 1
+  _bystanderVolume: 0.3
+  _transientVolume: 0.7
+  _killChimeDelay: 0.06
+  _pitchJitter: 0.06
+  _comboWindow: 0.8
+  _comboMaxStep: 4
+  _comboSemitonesPerStep: 1
+  _duckDb: -7.5
+  _duckHold: 0.08
+  _duckRelease: 0.15
+  _soulLowPassHz: 1100
+  _lowPassSweep: 0.25
+  _telegraphVolume: 0.45
+  _telegraphPitchRange: {x: 0.5, y: 2.5}
+  _attackShoutChance: 0.35
+  _hurtVoiceCooldown: 0.6
+  _layerFade: 1.5
+  _trackCrossfade: 2
+  _busyEnemies: 5
+  _lowHp01: 0.35
+  _stingerVolume: 0.7

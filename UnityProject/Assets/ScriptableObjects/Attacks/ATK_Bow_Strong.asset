@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dbdfa085b8b0d84e917341c63b12b9e, type: 3}
+  m_Name: ATK_Bow_Strong
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.AttackDefinition
+  _attackId: bow_pierce
+  _tier: 1
+  _delivery: 1
+  _damage: 35
+  _startup: 0.55
+  _active: 0.02
+  _recovery: 0.4
+  _cooldown: 0
+  _range: 20
+  _arcDegrees: 120
+  _moveSpeedMultiplier: 0.6
+  _lungeDistance: 0
+  _projectileSpeed: 34
+  _projectileMaxDistance: 20
+  _projectileRadius: 0.2
+  _pierce: 3
+  _shots: 1
+  _spreadDegrees: 0
+  _projectileColor: {r: 1, g: 1, b: 0.85, a: 1}
+  _repeatWhileHeld: 0
+  _telegraph: 2
+  _ringBand: 0.9
+  _multiHitInterval: 0
+  _maxHitsPerTarget: 1
+  _burnDuration: 0
+  _burnDamage: 0
+  _hitStun: 0.35
+  _knockback: 3
+  _interrupts: 0
+  _interruptible: 1
+  _feedback: {fileID: 11400000, guid: fce5e4756106edb4489c5073f6ace668, type: 2}
+  _animationState: AttackStrong
+  _projectileLook: 1
+  _bladeTrailColor: {r: 0, g: 0, b: 0, a: 0}

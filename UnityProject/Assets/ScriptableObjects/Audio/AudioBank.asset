@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c4467b1e5a8294fa93b95c575c8c57, type: 3}
+  m_Name: AudioBank
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.AudioBank
+  _sfx:
+  - Cue: 0
+    Clips:
+    - {fileID: 8300000, guid: f0926b20ede30f249b271676d3f545b5, type: 3}
+    - {fileID: 8300000, guid: c43d1d5ab3d82c74e8e38f2b098ead00, type: 3}
+    - {fileID: 8300000, guid: a763b0b09455c3a4c8cb8191276891ba, type: 3}
+  - Cue: 1
+    Clips:
+    - {fileID: 8300000, guid: f794bb6fd96925443a035a16a5347779, type: 3}
+    - {fileID: 8300000, guid: 6a1f48ddd303349408a963e5d1f5c856, type: 3}
+  - Cue: 6
+    Clips:
+    - {fileID: 8300000, guid: ae48dad88d3ba8548a0d2109cb8edaec, type: 3}
+    - {fileID: 8300000, guid: 7c76cbcd53a7687449892f29507e1938, type: 3}
+    - {fileID: 8300000, guid: 2ecf37c95a166674da758d8b3bf6dd51, type: 3}
+  - Cue: 2
+    Clips:
+    - {fileID: 8300000, guid: ce55c97cf348f23428d0251840d6e0e8, type: 3}
+  - Cue: 7
+    Clips:
+    - {fileID: 8300000, guid: 857cf4983891cf04389802f641e5973d, type: 3}
+  - Cue: 3
+    Clips:
+    - {fileID: 8300000, guid: 484e329ab0191f245ad0851b9d3c0787, type: 3}
+  - Cue: 4
+    Clips:
+    - {fileID: 8300000, guid: c04ad88b4b2e164468201e0555898703, type: 3}
+  - Cue: 10
+    Clips:
+    - {fileID: 8300000, guid: 93ae1060d29513b42b547bd7cbc74e1d, type: 3}
+    - {fileID: 8300000, guid: 4208325acf6f3494ab294fb1a14596b3, type: 3}
+    - {fileID: 8300000, guid: 4894232bf32da7a45bb1c4cb6965ed88, type: 3}
+  - Cue: 12
+    Clips:
+    - {fileID: 8300000, guid: 4ef3a6f361c51344a9f6e9891523ea7e, type: 3}
+    - {fileID: 8300000, guid: 585898e248d0bce44b5a2a2e0387454e, type: 3}
+  - Cue: 17
+    Clips:
+    - {fileID: 8300000, guid: 6a31037a00155aa46a6354cab33e40bd, type: 3}
+  _classVoices:
+  - Class: 0
+    Attack:
+    - {fileID: 8300000, guid: fef60b900ac979e43b75a93037188a43, type: 3}
+    - {fileID: 8300000, guid: 5a1fc25a51e8cc641aa34781b8e9e90b, type: 3}
+    - {fileID: 8300000, guid: 907e20d26e9c4024c952de5f330ccb75, type: 3}
+    Hurt:
+    - {fileID: 8300000, guid: 7ae58525b9117a543a1694b753ca7f85, type: 3}
+    - {fileID: 8300000, guid: 132b418daafadf34d812819b113784e6, type: 3}
+    Death:
+    - {fileID: 8300000, guid: b70385d193db7e347a010debf0b52d23, type: 3}
+  - Class: 1
+    Attack:
+    - {fileID: 8300000, guid: 573d8bece100d204c9664db985a9877c, type: 3}
+    - {fileID: 8300000, guid: 92ca8275dd35f9942b0ffd1381c47717, type: 3}
+    - {fileID: 8300000, guid: 0f3678001c081f245b710688c84c4a56, type: 3}
+    Hurt:
+    - {fileID: 8300000, guid: ef3b2fcc678553c4cb3f109445d33690, type: 3}
+    - {fileID: 8300000, guid: 4199d8fecb66d304fa2b91f0f08e25b2, type: 3}
+    Death:
+    - {fileID: 8300000, guid: cf0d33cda255e1d4e9185ffc86cc86f2, type: 3}
+  - Class: 2
+    Attack:
+    - {fileID: 8300000, guid: 77cafa5c71d07ee4b8308858def23f1c, type: 3}
+    - {fileID: 8300000, guid: 60cff96c57d878b49b8b7c4771ba64b3, type: 3}
+    - {fileID: 8300000, guid: d854c73426d36f549ae5fb8453894a8d, type: 3}
+    Hurt:
+    - {fileID: 8300000, guid: 05b201c73ceab934ebbf721341161ec4, type: 3}
+    - {fileID: 8300000, guid: 887af37f3f373e448b6992e70a1ef2f3, type: 3}
+    Death:
+    - {fileID: 8300000, guid: 13991c5f7f7dd804287e59fe06ff31ec, type: 3}
+  _bossPhaseVoice:
+  - {fileID: 8300000, guid: 043faef569ef504489cf6cd8afc18995, type: 3}
+  _arenaTracks:
+  - Clip: {fileID: 8300000, guid: db99a53f8f80751489ddc4e272ae5011, type: 3}
+    GainDb: -3.2000008
+  - Clip: {fileID: 8300000, guid: ddf8d2a8b79f4da4b9223befa89eab54, type: 3}
+    GainDb: -1.7000008
+  - Clip: {fileID: 8300000, guid: d3a3e403adadda0499a5e2f3810b8b47, type: 3}
+    GainDb: -8.200001
+  - Clip: {fileID: 8300000, guid: aaafbf491b905484e936f65cfa0a7efb, type: 3}
+    GainDb: -4.5
+  - Clip: {fileID: 8300000, guid: 50df32acac64f254482efba1bda36504, type: 3}
+    GainDb: -6.1000004
+  - Clip: {fileID: 8300000, guid: 0dcc95bcb785992429d78f6710733ef6, type: 3}
+    GainDb: -2.9000006
+  - Clip: {fileID: 8300000, guid: 4da88ab409ce29c4692d27373b43707d, type: 3}
+    GainDb: -3.1000004
+  - Clip: {fileID: 8300000, guid: c583d92b08988124399fc382e256f762, type: 3}
+    GainDb: -2.1000004
+  _bossTracks:
+  - Clip: {fileID: 8300000, guid: ef3645ab7fd5e274ba49d18b4599cc0c, type: 3}
+    GainDb: -7.3
+  - Clip: {fileID: 8300000, guid: b20aadd16f6bef446abe66f3cb9a1770, type: 3}
+    GainDb: -5.3
+  - Clip: {fileID: 8300000, guid: 852d3289a9989ca4a8ad984394d6c3b7, type: 3}
+    GainDb: -3.4000006
+  _menuTracks:
+  - Clip: {fileID: 8300000, guid: 54efa0181ae10c5469e7c0b5a26fc29b, type: 3}
+    GainDb: -4.5

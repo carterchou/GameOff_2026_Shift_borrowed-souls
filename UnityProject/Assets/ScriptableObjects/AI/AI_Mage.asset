@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3730570a2af52042a1aa397062c274a, type: 3}
+  m_Name: AI_Mage
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.AiProfile
+  _senseRange: 15
+  _preferredMin: 6
+  _preferredMax: 9
+  _retreatDistance: 3.5
+  _strafeSpeed: 0.45
+  _attackRange: 10
+  _attackCooldown: 1.6
+  _strongChance: 0.2
+  _specialChance: 0.2
+  _specialMaxDistance: 4.5
+  _extraTelegraph: 0.3
+  _requiresLineOfSight: 1
+  _decisionInterval: 0.2

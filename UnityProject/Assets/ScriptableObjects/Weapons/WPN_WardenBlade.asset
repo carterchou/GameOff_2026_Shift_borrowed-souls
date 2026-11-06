@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40bf231d81d0147b06ba5851a4cd56, type: 3}
+  m_Name: WPN_WardenBlade
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.WeaponDefinition
+  _displayName: "\u9B42\u5203"
+  _weakCombo:
+  - {fileID: 11400000, guid: 86537bc570df9f148b63306ec611f94e, type: 2}
+  _strong: {fileID: 11400000, guid: 05bd09b0a8d1b864f8866d0920a63591, type: 2}
+  _special: {fileID: 0}

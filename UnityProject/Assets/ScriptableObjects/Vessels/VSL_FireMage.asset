@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0bf6cb53bb7874e87dde9638dacf27, type: 3}
+  m_Name: VSL_FireMage
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.VesselDefinition
+  _displayName: "\u706B\u6CD5\u5E2B"
+  _class: 2
+  _maxHp: 90
+  _moveSpeed: 4.4
+  _acceleration: 40
+  _turnSpeedDegrees: 900
+  _dodgeDistance: 3.3
+  _dodgeDuration: 0.35
+  _dodgeInvulnStart: 0.1
+  _dodgeInvulnEnd: 0.28
+  _dodgeCooldown: 0.8
+  _projectileShieldCooldown: 8
+  _superArmor: 0
+  _weapon: {fileID: 11400000, guid: d772e0272702c4749b4518d132d0e2e0, type: 2}
+  _bodyColor: {r: 0.55, g: 0.36, b: 0.3, a: 1}

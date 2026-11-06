@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dbdfa085b8b0d84e917341c63b12b9e, type: 3}
+  m_Name: ATK_SoulBurst
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.AttackDefinition
+  _attackId: soul_burst
+  _tier: 2
+  _delivery: 0
+  _damage: 25
+  _startup: 0
+  _active: 0.05
+  _recovery: 0
+  _cooldown: 0
+  _range: 3.5
+  _arcDegrees: 360
+  _moveSpeedMultiplier: 1
+  _lungeDistance: 0
+  _projectileSpeed: 24
+  _projectileMaxDistance: 16
+  _projectileRadius: 0.2
+  _pierce: 0
+  _shots: 1
+  _spreadDegrees: 0
+  _projectileColor: {r: 1, g: 0.9, b: 0.6, a: 1}
+  _repeatWhileHeld: 0
+  _telegraph: 0
+  _ringBand: 0.9
+  _multiHitInterval: 0
+  _maxHitsPerTarget: 1
+  _burnDuration: 0
+  _burnDamage: 0
+  _hitStun: 0.3
+  _knockback: 4
+  _interrupts: 1
+  _interruptible: 0
+  _feedback: {fileID: 11400000, guid: fdf7b00bf8ec0f14c9ca1e1181a35e78, type: 2}

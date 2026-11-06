@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f771f3a3159f404c92e5ac274ac8895, type: 3}
+  m_Name: EmberSettings
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.EmberSettings
+  _dropNormal: 3
+  _dropElite: 8
+  _dropBossPhase: 10
+  _popDuration: 0.8
+  _popHeight: {x: 1.6, y: 2.6}
+  _scatterRadius: 2
+  _spinDegrees: {x: 300, y: 600}
+  _magnetRangeHoused: 2.5
+  _magnetRangeSoul: 5
+  _homingStartSpeed: 5
+  _homingAcceleration: 60
+  _homingMaxSpeed: 30
+  _collectDistance: 0.6
+  _waveEndPullSpeed: 22
+  _upgradeBaseCost: 12
+  _upgradeCostGrowth: 1.2
+  _comboWindow: 0.4
+  _comboMax: 12

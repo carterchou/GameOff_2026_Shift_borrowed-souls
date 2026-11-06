@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e355f9cdcefab4fb6131eb2aeb13c5, type: 3}
+  m_Name: EnemyCatalog
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Data.EnemyCatalog
+  _entries:
+  - Class: 0
+    Prefab: {fileID: 4583102987836380160, guid: 13f81296c2397db4499ddbe7df9a255d, type: 3}
+    Ai: {fileID: 11400000, guid: 40ec417740eeff544a700126db1bd13e, type: 2}
+  - Class: 1
+    Prefab: {fileID: 1638908763607446257, guid: cf81337d99c989a42908dac4cd2837ee, type: 3}
+    Ai: {fileID: 11400000, guid: 0166f9dc6183a9348a48c17b8a589af8, type: 2}
+  - Class: 2
+    Prefab: {fileID: 4019998156605383831, guid: a492e0a603e5aaa4fade5876baaa9ee1, type: 3}
+    Ai: {fileID: 11400000, guid: 0aedd259e868a0243a06f9aeaf02b68f, type: 2}
+  _bossPrefab: {fileID: 670241827670182373, guid: 1b9c7619a68f97442aae74bd356ffa11, type: 3}
+  _eliteHpMultiplier: 1.5
+  _eliteAttackMultiplier: 1.15
+  _eliteScale: 1.2
