@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using System.Collections;
 using BorrowedSouls.Debugging;
 using UnityEngine;
@@ -51,7 +52,7 @@ namespace BorrowedSouls.UI
         /// <summary>Shows the page as the last scene left it, same tip and a full bar, so the change of scene doesn't show.</summary>
         public void Hold()
         {
-            if (_lastTip >= 0 && _lastTip < _tips.Length) _tip.text = _tips[_lastTip];
+            if (_lastTip >= 0 && _lastTip < _tips.Length) _tip.text = Loc.T(_tips[_lastTip]);
             _group.alpha = 1f;
             _bar.fillAmount = 1f;
             gameObject.SetActive(true);
@@ -129,7 +130,7 @@ namespace BorrowedSouls.UI
             int next = Random.Range(0, _tips.Length);
             if (next == _lastTip) next = (next + 1) % _tips.Length;
             _lastTip = next;
-            return _tips[next];
+            return Loc.T(_tips[next]);
         }
     }
 }

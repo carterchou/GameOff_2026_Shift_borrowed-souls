@@ -11,7 +11,7 @@ namespace BorrowedSouls.Data
         [SerializeField] private AttackDefinition _strong;
         [SerializeField] private AttackDefinition _special;
 
-        public string DisplayName => _displayName;
+        public string DisplayName => BorrowedSouls.Localization.Loc.T(_displayName);
         public int WeakComboLength => _weakCombo.Length;
         public AttackDefinition GetWeak(int index) => _weakCombo.Length == 0 ? null : _weakCombo[Mathf.Clamp(index, 0, _weakCombo.Length - 1)];
         public AttackDefinition Strong => _strong;

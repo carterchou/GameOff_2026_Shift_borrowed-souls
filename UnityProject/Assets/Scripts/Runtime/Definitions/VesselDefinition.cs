@@ -35,7 +35,7 @@ namespace BorrowedSouls.Data
         [Header("Grey-box look")]
         [SerializeField] private Color _bodyColor = new Color(0.55f, 0.58f, 0.62f);
 
-        public string DisplayName => _displayName;
+        public string DisplayName => BorrowedSouls.Localization.Loc.T(_displayName);
         public VesselClass Class => _class;
         public float MaxHp => _maxHp;
         public float MoveSpeed => _moveSpeed;

@@ -1133,6 +1133,7 @@ GameObject:
   - component: {fileID: 142427702}
   - component: {fileID: 142427701}
   - component: {fileID: 142427700}
+  - component: {fileID: 142427704}
   m_Layer: 0
   m_Name: Name
   m_TagString: Untagged
@@ -1231,6 +1232,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142427698}
   m_CullTransparentMesh: 1
+--- !u!114 &142427704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142427698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &151167126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1293,6 +1306,7 @@ GameObject:
   - component: {fileID: 156278156}
   - component: {fileID: 156278155}
   - component: {fileID: 156278154}
+  - component: {fileID: 156278158}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -1391,6 +1405,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156278152}
   m_CullTransparentMesh: 1
+--- !u!114 &156278158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156278152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &158751749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1404,6 +1430,7 @@ GameObject:
   - component: {fileID: 158751753}
   - component: {fileID: 158751752}
   - component: {fileID: 158751751}
+  - component: {fileID: 158751755}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -1502,6 +1529,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158751749}
   m_CullTransparentMesh: 1
+--- !u!114 &158751755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158751749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &177304769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1515,6 +1554,7 @@ GameObject:
   - component: {fileID: 177304773}
   - component: {fileID: 177304772}
   - component: {fileID: 177304771}
+  - component: {fileID: 177304775}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -1613,6 +1653,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177304769}
   m_CullTransparentMesh: 1
+--- !u!114 &177304775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177304769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &193064036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,6 +1817,7 @@ RectTransform:
   - {fileID: 34326918}
   - {fileID: 349498522}
   - {fileID: 1599950643}
+  - {fileID: 1820466746}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2079,6 +2132,7 @@ GameObject:
   - component: {fileID: 231641529}
   - component: {fileID: 231641528}
   - component: {fileID: 231641527}
+  - component: {fileID: 231641531}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -2177,6 +2231,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231641525}
   m_CullTransparentMesh: 1
+--- !u!114 &231641531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231641525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &237096866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2301,6 +2367,7 @@ GameObject:
   - component: {fileID: 257041175}
   - component: {fileID: 257041174}
   - component: {fileID: 257041173}
+  - component: {fileID: 257041177}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -2399,6 +2466,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257041171}
   m_CullTransparentMesh: 1
+--- !u!114 &257041177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257041171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &261984839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2929,6 +3008,7 @@ GameObject:
   - component: {fileID: 329762133}
   - component: {fileID: 329762132}
   - component: {fileID: 329762131}
+  - component: {fileID: 329762135}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -3027,6 +3107,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329762129}
   m_CullTransparentMesh: 1
+--- !u!114 &329762135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329762129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &340970958
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3130,7 @@ GameObject:
   - component: {fileID: 340970959}
   - component: {fileID: 340970961}
   - component: {fileID: 340970960}
+  - component: {fileID: 340970962}
   m_Layer: 5
   m_Name: Help
   m_TagString: Untagged
@@ -3097,8 +3190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1.25
-  m_Text: "\u5DE6\u534A\u908A\u62D6\u66F3\uFF1A\u79FB\u52D5\uFF08\u624B\u6307\u653E\u54EA\u88E1\uFF0C\u6416\u687F\u5C31\u51FA\u73FE\u5728\u54EA\u88E1\uFF09\n\u81EA\u52D5\u9396\u5B9A\u9644\u8FD1\u7684\u6575\u4EBA\uFF1B\u3010\u76EE\u6A19\u3011\u63DB\u4E00\u500B\n\u3010\u653B\u64CA\u3011\u8F15\u653B\u64CA\uFF08\u6309\u4F4F\u9023\u7E8C\uFF09\n\u3010\u91CD\u64CA\u3011\u5F37\u653B\u64CA\n\u3010\u6280\u80FD\u3011\u5927\u62DB\n\u3010\u9583\u907F\u3011\u7FFB\u6EFE\u9583\u907F\uFF0C\u6709\u7121\u6575\u6642\u9593\n\u6309\u4F4F\u3010\u96E2\u9B42\u3011\uFF1A\u9748\u9B42\u96E2\u958B\u8EAB\u9AD4\n\u53F3\u4E0A\u89D2
-    II\uFF1A\u66AB\u505C"
+  m_Text: "\u5DE6\u534A\u908A\u62D6\u66F3\uFF1A\u79FB\u52D5\uFF08\u624B\u6307\u653E\u54EA\u88E1\uFF0C\u6416\u687F\u5C31\u51FA\u73FE\u5728\u54EA\u88E1\uFF09\n\u81EA\u52D5\u9396\u5B9A\u9644\u8FD1\u7684\u6575\u4EBA\uFF1B\u3010\u76EE\u6A19\u3011\u63DB\u4E00\u500B\n\u3010\u653B\u64CA\u3011\u8F15\u653B\u64CA\uFF08\u6309\u4F4F\u9023\u7E8C\uFF09\n\u3010\u91CD\u64CA\u3011\u5F37\u653B\u64CA\n\u3010\u6280\u80FD\u3011\u5927\u62DB\n\u3010\u9583\u907F\u3011\u7FFB\u6EFE\u9583\u907F\uFF0C\u6709\u7121\u6575\u6642\u9593\n\u6309\u4F4F\u3010\u96E2\u9B42\u3011\uFF1A\u9748\u9B42\u96E2\u958B\u8EAB\u9AD4\n\u53F3\u4E0A\u89D2\u9F52\u8F2A\uFF1A\u66AB\u505C"
 --- !u!222 &340970961
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3107,6 +3199,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340970958}
   m_CullTransparentMesh: 1
+--- !u!114 &340970962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340970958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &349498521
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3425,7 @@ GameObject:
   - component: {fileID: 470632181}
   - component: {fileID: 470632180}
   - component: {fileID: 470632179}
+  - component: {fileID: 470632183}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -3419,6 +3524,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470632177}
   m_CullTransparentMesh: 1
+--- !u!114 &470632183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470632177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &486510894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3618,6 +3735,7 @@ GameObject:
   - component: {fileID: 534530527}
   - component: {fileID: 534530526}
   - component: {fileID: 534530525}
+  - component: {fileID: 534530529}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -3716,6 +3834,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534530523}
   m_CullTransparentMesh: 1
+--- !u!114 &534530529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534530523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &558775064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,6 +3935,7 @@ GameObject:
   - component: {fileID: 561389928}
   - component: {fileID: 561389927}
   - component: {fileID: 561389926}
+  - component: {fileID: 561389930}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -3903,6 +4034,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561389924}
   m_CullTransparentMesh: 1
+--- !u!114 &561389930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561389924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1001 &615302900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4305,6 +4448,7 @@ GameObject:
   - component: {fileID: 655059657}
   - component: {fileID: 655059656}
   - component: {fileID: 655059655}
+  - component: {fileID: 655059659}
   m_Layer: 0
   m_Name: BodyHeading
   m_TagString: Untagged
@@ -4403,6 +4547,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655059653}
   m_CullTransparentMesh: 1
+--- !u!114 &655059659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655059653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &724261997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,6 +4797,117 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &759062475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759062476}
+  - component: {fileID: 759062480}
+  - component: {fileID: 759062479}
+  - component: {fileID: 759062478}
+  - component: {fileID: 759062477}
+  m_Layer: 0
+  m_Name: Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &759062476
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759062475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1820466746}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 400, y: 64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &759062477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759062475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.7}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
+--- !u!114 &759062478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759062475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.95}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &759062479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759062475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.84, g: 0.81, b: 0.74, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 094d33944781b6b4088bc4c67bc47e08, type: 3}
+    m_FontSize: 32
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: "\u88FD\u4F5C\u540D\u55AE"
+--- !u!222 &759062480
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759062475}
+  m_CullTransparentMesh: 1
 --- !u!1 &768118688
 GameObject:
   m_ObjectHideFlags: 0
@@ -9642,6 +9909,7 @@ GameObject:
   - component: {fileID: 784391942}
   - component: {fileID: 784391941}
   - component: {fileID: 784391940}
+  - component: {fileID: 784391944}
   m_Layer: 0
   m_Name: Tagline
   m_TagString: Untagged
@@ -9740,6 +10008,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784391938}
   m_CullTransparentMesh: 1
+--- !u!114 &784391944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784391938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &791238037
 GameObject:
   m_ObjectHideFlags: 0
@@ -10499,6 +10779,7 @@ GameObject:
   - component: {fileID: 910839968}
   - component: {fileID: 910839967}
   - component: {fileID: 910839966}
+  - component: {fileID: 910839970}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -10597,6 +10878,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910839964}
   m_CullTransparentMesh: 1
+--- !u!114 &910839970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910839964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &944633206
 GameObject:
   m_ObjectHideFlags: 0
@@ -11064,6 +11357,7 @@ GameObject:
   - component: {fileID: 1017149125}
   - component: {fileID: 1017149124}
   - component: {fileID: 1017149123}
+  - component: {fileID: 1017149127}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -11162,6 +11456,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017149121}
   m_CullTransparentMesh: 1
+--- !u!114 &1017149127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017149121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1021137545
 GameObject:
   m_ObjectHideFlags: 0
@@ -11395,6 +11701,7 @@ GameObject:
   - component: {fileID: 1062912589}
   - component: {fileID: 1062912588}
   - component: {fileID: 1062912587}
+  - component: {fileID: 1062912591}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -11493,6 +11800,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062912585}
   m_CullTransparentMesh: 1
+--- !u!114 &1062912591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062912585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1066350017
 GameObject:
   m_ObjectHideFlags: 0
@@ -11603,6 +11922,7 @@ GameObject:
   - component: {fileID: 1067068641}
   - component: {fileID: 1067068640}
   - component: {fileID: 1067068639}
+  - component: {fileID: 1067068643}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -11701,6 +12021,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067068637}
   m_CullTransparentMesh: 1
+--- !u!114 &1067068643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067068637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1072948430
 GameObject:
   m_ObjectHideFlags: 0
@@ -12007,6 +12339,7 @@ GameObject:
   - component: {fileID: 1106606484}
   - component: {fileID: 1106606483}
   - component: {fileID: 1106606482}
+  - component: {fileID: 1106606486}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -12105,6 +12438,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106606480}
   m_CullTransparentMesh: 1
+--- !u!114 &1106606486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106606480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1117823603
 GameObject:
   m_ObjectHideFlags: 0
@@ -12118,6 +12463,7 @@ GameObject:
   - component: {fileID: 1117823607}
   - component: {fileID: 1117823606}
   - component: {fileID: 1117823605}
+  - component: {fileID: 1117823609}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -12216,6 +12562,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117823603}
   m_CullTransparentMesh: 1
+--- !u!114 &1117823609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117823603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1127628022
 GameObject:
   m_ObjectHideFlags: 0
@@ -12340,6 +12698,7 @@ GameObject:
   - component: {fileID: 1135151953}
   - component: {fileID: 1135151952}
   - component: {fileID: 1135151951}
+  - component: {fileID: 1135151955}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -12420,9 +12779,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 094d33944781b6b4088bc4c67bc47e08, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 16
+    m_MaxSize: 32
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12438,6 +12797,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135151949}
   m_CullTransparentMesh: 1
+--- !u!114 &1135151955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135151949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1149090140
 GameObject:
   m_ObjectHideFlags: 0
@@ -12451,6 +12822,7 @@ GameObject:
   - component: {fileID: 1149090141}
   - component: {fileID: 1149090143}
   - component: {fileID: 1149090142}
+  - component: {fileID: 1149090146}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -12549,6 +12921,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 400, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1149090146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149090140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1155075215
 GameObject:
   m_ObjectHideFlags: 0
@@ -12562,6 +12946,7 @@ GameObject:
   - component: {fileID: 1155075219}
   - component: {fileID: 1155075218}
   - component: {fileID: 1155075217}
+  - component: {fileID: 1155075221}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -12642,9 +13027,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 094d33944781b6b4088bc4c67bc47e08, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 16
+    m_MaxSize: 32
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12660,6 +13045,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1155075215}
   m_CullTransparentMesh: 1
+--- !u!114 &1155075221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155075215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1158779839
 GameObject:
   m_ObjectHideFlags: 0
@@ -12958,6 +13355,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166655463}
   m_CullTransparentMesh: 1
+--- !u!1 &1237230889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237230891}
+  - component: {fileID: 1237230890}
+  m_Layer: 0
+  m_Name: WebGLShadowFallback
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1237230890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237230889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3112b3e232c077d41bb29c2731191946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Feedback.WebGLShadowFallback
+  _lights:
+  - {fileID: 724261998}
+  - {fileID: 622614921}
+--- !u!4 &1237230891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237230889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1241780294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13498,6 +13942,7 @@ GameObject:
   - component: {fileID: 1338266068}
   - component: {fileID: 1338266067}
   - component: {fileID: 1338266066}
+  - component: {fileID: 1338266070}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -13578,9 +14023,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 094d33944781b6b4088bc4c67bc47e08, type: 3}
     m_FontSize: 32
     m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_BestFit: 1
+    m_MinSize: 16
+    m_MaxSize: 32
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -13596,6 +14041,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338266064}
   m_CullTransparentMesh: 1
+--- !u!114 &1338266070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338266064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1339824890
 GameObject:
   m_ObjectHideFlags: 0
@@ -13795,6 +14252,7 @@ GameObject:
   - component: {fileID: 1476786204}
   - component: {fileID: 1476786203}
   - component: {fileID: 1476786202}
+  - component: {fileID: 1476786206}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -13893,6 +14351,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476786200}
   m_CullTransparentMesh: 1
+--- !u!114 &1476786206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476786200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1494370435
 GameObject:
   m_ObjectHideFlags: 0
@@ -13906,6 +14376,7 @@ GameObject:
   - component: {fileID: 1494370439}
   - component: {fileID: 1494370438}
   - component: {fileID: 1494370437}
+  - component: {fileID: 1494370441}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -14004,6 +14475,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494370435}
   m_CullTransparentMesh: 1
+--- !u!114 &1494370441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494370435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1508520695
 GameObject:
   m_ObjectHideFlags: 0
@@ -14361,6 +14844,7 @@ GameObject:
   - component: {fileID: 1585333391}
   - component: {fileID: 1585333390}
   - component: {fileID: 1585333389}
+  - component: {fileID: 1585333393}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -14459,6 +14943,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585333387}
   m_CullTransparentMesh: 1
+--- !u!114 &1585333393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585333387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1599950642
 GameObject:
   m_ObjectHideFlags: 0
@@ -14804,6 +15300,7 @@ GameObject:
   - component: {fileID: 1680530206}
   - component: {fileID: 1680530205}
   - component: {fileID: 1680530204}
+  - component: {fileID: 1680530208}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -14902,6 +15399,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680530202}
   m_CullTransparentMesh: 1
+--- !u!114 &1680530208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680530202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1704897824
 GameObject:
   m_ObjectHideFlags: 0
@@ -14915,6 +15424,7 @@ GameObject:
   - component: {fileID: 1704897828}
   - component: {fileID: 1704897827}
   - component: {fileID: 1704897826}
+  - component: {fileID: 1704897830}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -15013,6 +15523,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704897824}
   m_CullTransparentMesh: 1
+--- !u!114 &1704897830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704897824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1730493559
 GameObject:
   m_ObjectHideFlags: 0
@@ -15026,6 +15548,7 @@ GameObject:
   - component: {fileID: 1730493563}
   - component: {fileID: 1730493562}
   - component: {fileID: 1730493561}
+  - component: {fileID: 1730493565}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -15124,6 +15647,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730493559}
   m_CullTransparentMesh: 1
+--- !u!114 &1730493565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730493559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1739365458
 GameObject:
   m_ObjectHideFlags: 0
@@ -15434,6 +15969,7 @@ GameObject:
   - component: {fileID: 1782324146}
   - component: {fileID: 1782324145}
   - component: {fileID: 1782324144}
+  - component: {fileID: 1782324148}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -15532,6 +16068,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782324142}
   m_CullTransparentMesh: 1
+--- !u!114 &1782324148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782324142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &1802482187
 GameObject:
   m_ObjectHideFlags: 0
@@ -15673,6 +16221,175 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1820466745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820466746}
+  - component: {fileID: 1820466752}
+  - component: {fileID: 1820466751}
+  - component: {fileID: 1820466750}
+  - component: {fileID: 1820466749}
+  - component: {fileID: 1820466748}
+  - component: {fileID: 1820466747}
+  m_Layer: 0
+  m_Name: LanguageButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1820466746
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 759062476}
+  m_Father: {fileID: 213552641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -40, y: 36}
+  m_SizeDelta: {x: 170, y: 58}
+  m_Pivot: {x: 1, y: 0}
+--- !u!114 &1820466747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d532dc250d79dd24db3c3b13ed762083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LanguageButton
+  _label: {fileID: 759062479}
+  _visibleWith: {fileID: 151167126}
+--- !u!225 &1820466748
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1820466749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94d4d2a9d720eae4eb8e287df203d2a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.UI.MenuButtonFeel
+  _button: {fileID: 1820466750}
+  _label: {fileID: 759062479}
+  _labelNormal: {r: 0.84, g: 0.81, b: 0.74, a: 1}
+  _labelLit: {r: 1, g: 0.93, b: 0.72, a: 1}
+  _litScale: 1.03
+  _pressedScale: 0.97
+  _speed: 16
+--- !u!114 &1820466750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: c30c5c79fdbf11c42896f234e2adaff8, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 2fd3f71d6709cb24e98756618c5a56de, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: c30c5c79fdbf11c42896f234e2adaff8, type: 3}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1820466751}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1820466751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a4fe241095f88cc40b166ed470385c95, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1820466752
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820466745}
+  m_CullTransparentMesh: 1
 --- !u!1 &1836964857
 GameObject:
   m_ObjectHideFlags: 0
@@ -21782,6 +22499,7 @@ GameObject:
   - component: {fileID: 1999263934}
   - component: {fileID: 1999263933}
   - component: {fileID: 1999263932}
+  - component: {fileID: 1999263936}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -21880,6 +22598,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999263930}
   m_CullTransparentMesh: 1
+--- !u!114 &1999263936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999263930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &2023285571
 GameObject:
   m_ObjectHideFlags: 0
@@ -22362,6 +23092,7 @@ GameObject:
   - component: {fileID: 2060181748}
   - component: {fileID: 2060181747}
   - component: {fileID: 2060181746}
+  - component: {fileID: 2060181750}
   m_Layer: 0
   m_Name: Label
   m_TagString: Untagged
@@ -22460,6 +23191,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060181744}
   m_CullTransparentMesh: 1
+--- !u!114 &2060181750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060181744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &2079729801
 GameObject:
   m_ObjectHideFlags: 0
@@ -22765,6 +23508,7 @@ GameObject:
   - component: {fileID: 2141603249}
   - component: {fileID: 2141603248}
   - component: {fileID: 2141603247}
+  - component: {fileID: 2141603251}
   m_Layer: 0
   m_Name: Caption
   m_TagString: Untagged
@@ -22863,6 +23607,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141603245}
   m_CullTransparentMesh: 1
+--- !u!114 &2141603251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141603245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5eaef11359ca049845675089f33333, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BorrowedSouls.Runtime::BorrowedSouls.Localization.LocText
 --- !u!1 &2146288434
 GameObject:
   m_ObjectHideFlags: 0
@@ -22997,3 +23753,4 @@ SceneRoots:
   - {fileID: 1047815955}
   - {fileID: 213552641}
   - {fileID: 2039608265}
+  - {fileID: 1237230891}

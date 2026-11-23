@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using System;
 using System.Text;
 using BorrowedSouls.Bootstrap;
@@ -146,18 +147,19 @@ namespace BorrowedSouls.UI
                 string effect = _upgradeTexts.Describe(id, level - 1).Replace('\n', ' ');
                 text.Append($"<color=#9FE8FF>{_upgradeTexts.NameOf(id)}</color>  Lv {level}\n<size=25>{effect}</size>\n\n");
             }
-            return text.Length > 0 ? text.ToString() : "這局還沒選過升級。\n清完一波就能選。";
+            return text.Length > 0 ? text.ToString() : Loc.T("這局還沒選過升級。\n清完一波就能選。");
         }
 
         private void Refresh()
         {
             GameOptions o = _root.Options;
-            _shakeLabel.text = $"鏡頭震動：{o.ShakeName}";
-            _flashesLabel.text = $"減少閃光：{(o.ReduceFlashes ? "開" : "關")}";
-            _hintsLabel.text = $"教學提示：{(o.TutorialHints ? "開" : "關")}";
-            _numbersLabel.text = $"傷害數字：{(o.DamageNumbers ? "開" : "關")}";
-            _volumeLabel.text = $"音量：{Mathf.RoundToInt(o.MasterVolume * 100f)}%";
+            _shakeLabel.text = Loc.F("鏡頭震動：{0}", Loc.T(o.ShakeName));
+            _flashesLabel.text = Loc.F("減少閃光：{0}", OnOff(o.ReduceFlashes));
+            _hintsLabel.text = Loc.F("教學提示：{0}", OnOff(o.TutorialHints));
+            _numbersLabel.text = Loc.F("傷害數字：{0}", OnOff(o.DamageNumbers));
+            _volumeLabel.text = Loc.F("音量：{0}%", Mathf.RoundToInt(o.MasterVolume * 100f));
         }
 
+        private static string OnOff(bool on) => Loc.T(on ? "開" : "關");
     }
 }

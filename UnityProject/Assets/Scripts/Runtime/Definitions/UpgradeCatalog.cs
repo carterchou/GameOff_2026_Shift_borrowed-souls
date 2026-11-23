@@ -35,9 +35,9 @@ namespace BorrowedSouls.Data
         {
             if (!TryGet(id, out Entry e) || e.NextLevelText == null || e.NextLevelText.Length == 0) return id.ToString();
             int i = Mathf.Clamp(currentLevel, 0, e.NextLevelText.Length - 1);
-            return e.NextLevelText[i];
+            return BorrowedSouls.Localization.Loc.T(e.NextLevelText[i]);
         }
 
-        public string NameOf(UpgradeId id) => TryGet(id, out Entry e) && !string.IsNullOrEmpty(e.DisplayName) ? e.DisplayName : id.ToString();
+        public string NameOf(UpgradeId id) => TryGet(id, out Entry e) && !string.IsNullOrEmpty(e.DisplayName) ? BorrowedSouls.Localization.Loc.T(e.DisplayName) : id.ToString();
     }
 }

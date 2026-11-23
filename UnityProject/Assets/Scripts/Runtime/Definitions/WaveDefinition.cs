@@ -29,13 +29,13 @@ namespace BorrowedSouls.Data
         [Tooltip("Short contextual hint shown when the wave starts (tutorial merged into waves 1-2).")]
         [SerializeField, TextArea] private string _hint = "";
 
-        public string Title => _title;
+        public string Title => BorrowedSouls.Localization.Loc.T(_title);
         public WaveEntry[] Entries => _entries;
         public int MaxAlive => _maxAlive;
         public float SpawnInterval => _spawnInterval;
         public bool IsBossWave => _isBossWave;
         public bool FirstEnemyAlone => _firstEnemyAlone;
-        public string Hint => _hint;
+        public string Hint => BorrowedSouls.Localization.Loc.T(_hint);
 
         public int TotalCount
         {

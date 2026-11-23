@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using System.Collections;
 using System.Collections.Generic;
 using BorrowedSouls.Core.Meta;
@@ -219,10 +220,10 @@ namespace BorrowedSouls.Rest
         {
             HidePanels();
             Current = Stage.Results;
-            _resultsTitle.text = s.Victory ? "魂祭場解放" : "靈魂消散";
+            _resultsTitle.text = Loc.T(s.Victory ? "魂祭場解放" : "靈魂消散");
             int minutes = (int)(s.Seconds / 60f);
-            string pay = _talents.Released ? $"\n\n獲得魂晶  {s.Crystals}" : string.Empty;
-            _resultsBody.text = $"通過波次  {s.WavesCleared}\n時間  {minutes}:{(int)s.Seconds % 60:00}\n擊殺  {s.Kills}{pay}";
+            string pay = _talents.Released ? Loc.F("\n\n獲得魂晶  {0}", s.Crystals) : string.Empty;
+            _resultsBody.text = Loc.F("通過波次  {0}\n時間  {1}:{2:00}\n擊殺  {3}", s.WavesCleared, minutes, (int)s.Seconds % 60, s.Kills) + pay;
             _resultsPanel.SetActive(true);
             Select(_resultsContinue);
         }
@@ -233,7 +234,7 @@ namespace BorrowedSouls.Rest
             Current = Stage.Menu;
             _talentsButton.gameObject.SetActive(_talents.Released);
             _crystals.gameObject.SetActive(_talents.Released);
-            if (_talents.Released) _crystals.text = $"魂晶  {ProfileStore.Current(_talents).Crystals}";
+            if (_talents.Released) _crystals.text = Loc.F("魂晶  {0}", ProfileStore.Current(_talents).Crystals);
             ShowChoice();
             _menuPanel.SetActive(true);
             Select(_start);
@@ -242,7 +243,7 @@ namespace BorrowedSouls.Rest
         private void ShowChoice()
         {
             for (int i = 0; i < _bodyMarks.Length; i++) _bodyMarks[i].SetActive(i == (int)_chosen);
-            _bodyNote.text = _bodyNotes[(int)_chosen];
+            _bodyNote.text = Loc.T(_bodyNotes[(int)_chosen]);
             LinkMenu();
         }
 

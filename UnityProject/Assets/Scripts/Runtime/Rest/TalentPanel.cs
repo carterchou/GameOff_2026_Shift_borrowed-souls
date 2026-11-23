@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using System;
 using BorrowedSouls.Core.Meta;
 using BorrowedSouls.Data;
@@ -51,14 +52,14 @@ namespace BorrowedSouls.Rest
         private void Refresh()
         {
             ProfileState profile = ProfileStore.Current(_catalog);
-            _crystals.text = $"魂晶  {profile.Crystals}";
+            _crystals.text = Loc.F("魂晶  {0}", profile.Crystals);
             for (int i = 0; i < _labels.Length; i++)
             {
                 TalentCatalog.Entry entry = _catalog.Entries[i];
                 TalentRule rule = _catalog.Rules[i];
                 int cost = profile.NextCost(rule);
-                string price = cost < 0 ? "已滿級" : $"{cost} 魂晶";
-                _labels[i].text = $"{entry.DisplayName}  Lv {profile.Level(entry.Id)}／{rule.MaxLevel}　　{price}\n<size=22>{entry.Effect}</size>";
+                string price = cost < 0 ? Loc.T("已滿級") : Loc.F("{0} 魂晶", cost);
+                _labels[i].text = $"{Loc.T(entry.DisplayName)}  Lv {profile.Level(entry.Id)}／{rule.MaxLevel}　　{price}\n<size=22>{Loc.T(entry.Effect)}</size>";
             }
         }
     }

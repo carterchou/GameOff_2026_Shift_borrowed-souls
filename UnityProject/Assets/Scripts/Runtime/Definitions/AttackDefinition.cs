@@ -121,7 +121,7 @@ namespace BorrowedSouls.Data
         public bool RepeatWhileHeld => _repeatWhileHeld;
         public TelegraphShape Telegraph => _telegraph;
         public float RingBand => _ringBand;
-        public string Callout => _callout;
+        public string Callout => BorrowedSouls.Localization.Loc.T(_callout);
         public float MultiHitInterval => _multiHitInterval;
         public int MaxHitsPerTarget => _maxHitsPerTarget;
         public float BurnDuration => _burnDuration;

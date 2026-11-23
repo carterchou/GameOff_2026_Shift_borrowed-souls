@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using BorrowedSouls.Core.Combat;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,7 +23,7 @@ namespace BorrowedSouls.UI
             int tenths = HudRules.CooldownTenths(left);
             if (tenths == _lastTenths) return; // text only changes when the shown value does
             _lastTenths = tenths;
-            _text.text = tenths > 0 ? $"{_label}\n{tenths / 10f:0.0}s" : $"{_label}\n{_keys}";
+            _text.text = tenths > 0 ? $"{Loc.T(_label)}\n{tenths / 10f:0.0}s" : $"{Loc.T(_label)}\n{_keys}";
             _text.color = tenths > 0 ? _coolingColor : _readyColor;
         }
     }

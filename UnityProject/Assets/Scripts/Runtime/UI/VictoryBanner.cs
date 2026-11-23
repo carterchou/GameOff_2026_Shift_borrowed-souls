@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using BorrowedSouls.Run;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,7 +23,7 @@ namespace BorrowedSouls.UI
             int seconds = Mathf.CeilToInt(left);
             if (seconds == _shownSeconds) return;
             _shownSeconds = seconds;
-            _countdown.text = $"{seconds} 秒後返回休息區";
+            _countdown.text = Loc.F("{0} 秒後返回休息區", seconds);
         }
     }
 }

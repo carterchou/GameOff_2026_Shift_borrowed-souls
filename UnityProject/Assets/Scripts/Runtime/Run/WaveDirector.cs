@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using System.Collections.Generic;
 using BorrowedSouls.AI;
 using BorrowedSouls.Bootstrap;
@@ -399,7 +400,7 @@ namespace BorrowedSouls.Run
                 });
             }
             int remaining = _embers.Wallet.BankedUpgrades + _freePicks;
-            string header = remaining > 0 ? $"靈魂強化（之後還有 {remaining} 次）" : "靈魂強化";
+            string header = remaining > 0 ? Loc.F("靈魂強化（之後還有 {0} 次）", remaining) : Loc.T("靈魂強化");
             _upgradePanel.Show(header, _cards, OnUpgradePicked);
         }
 

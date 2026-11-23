@@ -42,7 +42,7 @@ namespace BorrowedSouls.Vessels
 
         public GameRoot Root => _root;
         public VesselDefinition Definition => _definition;
-        public string DisplayName => string.IsNullOrEmpty(_displayNameOverride) ? _definition.DisplayName : _displayNameOverride;
+        public string DisplayName => string.IsNullOrEmpty(_displayNameOverride) ? _definition.DisplayName : BorrowedSouls.Localization.Loc.T(_displayNameOverride);
         public VesselClass Class => _definition.Class;
         public VesselMotor Motor => _motor;
         public VesselCombat Combat => _combat;

@@ -1,3 +1,4 @@
+using BorrowedSouls.Localization;
 using BorrowedSouls.Bootstrap;
 using BorrowedSouls.Combat;
 using BorrowedSouls.Core.Soul;
@@ -131,7 +132,7 @@ namespace BorrowedSouls.UI
                 int hp = Mathf.CeilToInt(v.Hp);
                 if (hp != _lastHp || v != _lastVessel)
                 {
-                    string ghost = v.State.EnemySoulSuppressed ? "\n<color=#b77cff>離開後敵人將以此 HP 復活</color>" : "";
+                    string ghost = v.State.EnemySoulSuppressed ? "\n<color=#b77cff>" + Loc.T("離開後敵人將以此 HP 復活") + "</color>" : "";
                     _bodyText.text = $"{v.Definition.DisplayName} · {v.Definition.Weapon.DisplayName}\nHP {hp} / {Mathf.CeilToInt(v.MaxHp.Value)}{ghost}";
                     _hpFill.fillAmount = v.MaxHp.Value > 0f ? v.Hp / v.MaxHp.Value : 0f;
                     _lastHp = hp;
@@ -148,7 +149,7 @@ namespace BorrowedSouls.UI
             if (tenths == _lastSoulTenths) return;
             _lastSoulTenths = tenths;
             _bodyText.text = s.Mode == SoulMode.Expired
-                ? "<color=#ff5050>靈魂消散</color>"
+                ? "<color=#ff5050>" + Loc.T("靈魂消散") + "</color>"
                 : $"<color=#7fe8ff>SOUL FREE  {s.FreeTimeLeft:0.0}s</color>\n" + InputHints.For("放開／再按 Shift 侵入發光的身體");
             _hpFill.fillAmount = 0f;
         }
@@ -159,7 +160,7 @@ namespace BorrowedSouls.UI
             int key = _waves.WaveNumber * 1000 + _waves.RemainingEnemies;
             if (key == _lastWaveKey) return;
             _lastWaveKey = key;
-            _waveText.text = _waves.WaveNumber > 0 ? $"WAVE {_waves.WaveNumber} / {_waves.TotalWaves}   敵人 {_waves.RemainingEnemies}" : "";
+            _waveText.text = _waves.WaveNumber > 0 ? Loc.F("WAVE {0} / {1}   敵人 {2}", _waves.WaveNumber, _waves.TotalWaves, _waves.RemainingEnemies) : "";
         }
 
         private void UpdateBoss()
@@ -178,7 +179,7 @@ namespace BorrowedSouls.UI
             if (key == _lastEmberKey) return;
             _lastEmberKey = key;
             _emberFill.fillAmount = w.Fill01;
-            _emberText.text = w.BankedUpgrades > 0 ? $"魂燼  本波已存入升級 ×{w.BankedUpgrades}" : "魂燼";
+            _emberText.text = w.BankedUpgrades > 0 ? Loc.F("魂燼  本波已存入升級 ×{0}", w.BankedUpgrades) : Loc.T("魂燼");
         }
     }
 }

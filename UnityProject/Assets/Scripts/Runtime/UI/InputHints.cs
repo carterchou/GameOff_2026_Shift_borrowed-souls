@@ -1,11 +1,15 @@
 using BorrowedSouls.InputHandling;
+using BorrowedSouls.Localization;
 
 namespace BorrowedSouls.UI
 {
-    /// <summary>Hint text names keys; on a touch device it names the on-screen buttons instead.</summary>
+    /// <summary>
+    /// Hint text in the current language. Hints name keys; on a touch device they name the on-screen buttons instead.
+    /// Callers pass the Chinese source line.
+    /// </summary>
     public static class InputHints
     {
-        private static readonly string[] Touch =
+        private static readonly string[] TouchZh =
         {
             // whole lines first, then the key names inside other lines
             "WASD 移動 · 滑鼠瞄準 · 左鍵／右鍵／E 攻擊 · Space 閃避（有無敵時間）",
@@ -18,10 +22,22 @@ namespace BorrowedSouls.UI
             " E ", " 【技能】",
         };
 
-        public static string For(string text)
+        private static readonly string[] TouchEn =
         {
+            "WASD move · Mouse aim · Left click / Right click / E attack · Space dodge (invincible)",
+            "Drag on the left to move · Enemies are auto-targeted · [Target] switches",
+            "Shift", "[Soul]",
+            "Left click", "[Attack]",
+            "Right click", "[Strong]",
+            " E ", " [Skill] ",
+        };
+
+        public static string For(string zh)
+        {
+            string text = Loc.T(zh);
             if (string.IsNullOrEmpty(text) || !TouchControls.Active) return text;
-            for (int i = 0; i < Touch.Length; i += 2) text = text.Replace(Touch[i], Touch[i + 1]);
+            string[] swaps = Loc.English ? TouchEn : TouchZh;
+            for (int i = 0; i < swaps.Length; i += 2) text = text.Replace(swaps[i], swaps[i + 1]);
             return text;
         }
     }
